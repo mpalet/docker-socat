@@ -1,4 +1,4 @@
-FROM quay.io/justcontainers/base-alpine:v0.12.2
+FROM oznu/s6-alpine:armhf
 MAINTAINER tynor88 <tynor@hotmail.com>
 
 RUN apk add --no-cache socat
